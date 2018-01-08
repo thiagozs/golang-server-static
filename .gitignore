@@ -3,14 +3,13 @@ vendor/
 
 bin/*
 !bin/.gitkeep
-/pkg
+pkg/
+!pkg/.gitkeep
 .idea/
 .env
 token.txt
-pkg/
 
 src/vendor
-src/vendor/*
 src/.env
 
 scripts/dockerhub-passwd.txt
