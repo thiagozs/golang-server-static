@@ -2,9 +2,7 @@
 
 ### Run the project.
 
-Execute **env.sh** to setup $GOPATH like **`$. ./env.sh`**
-
-Go to folder src and run **`glide up`** to download the dependencies of project.
+Go to folder src and run **`govendor sync`** to download the dependencies of project.
 
 Compile the executable, just run **`scripts/build-all.sh`**
 

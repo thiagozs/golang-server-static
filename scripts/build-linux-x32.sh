@@ -15,6 +15,6 @@ else
 	echo "$FILE not found. Generate a new one!"
 fi
 
-env GOARCH=386 GOOS=linux go build -v -o bin/http-server-x32 src/server/main.go
+env GOARCH=386 GOOS=linux go build -v -o bin/http-server-x32 server/main.go
 
 cd --
